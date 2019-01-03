@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet" href = "style.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	</head>
+		
+	<body>
+		<div class = "button"> 
+		
+		</div>
+		
+		<a href = "https://i.pinimg.com/originals/11/28/a8/1128a814e4ae46fead8b7cc4bb92ba6e.jpg" target = "_blank">
+		<div class = "button2"> 
+			
+		</div>
+		</a>
+
+		<a href = "https://www.sbs.com.au/popasia/sites/sbs.com.au.popasia/files/styles/full/public/exo-kai-5.jpg?itok=H98GD8kJ&mtime=1483490580" target = "_blank">
+		<div class = "button3"> 
+		
+		</div> 
+		</a> 
+
+	</body>
+</html>
+
+
+
+
+
+.button{
+	background-color: #DEB887;
+	border: 3px solid  #FFEBCD;
+	padding: 30px;
+	margin: 30px;
+	text-transform: uppercase;
+	font-family: "Roboto";
+	font-weight: 800;
+	float: left;
+	font-size: 20px;
+	top: 100px;
+	left: 10px;
+	position: absolute;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+
+.button2{
+	background-color: #DEB887;
+	border: 1px solid #FFEBCD;
+	padding: 30px;
+	margin: 30px;
+	text-transform: uppercase;
+	font-family: "Roboto";
+	font-weight: 800;
+	float: left;
+	font-size: 20px;
+	top: 200px;
+	left: 50px;
+	position: absolute;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+
+.button3{
+	background-color: #DEB887;
+	border: 1px solid #FFEBCD;
+	padding: 30px;
+	margin: 30px;
+	text-transform: uppercase;
+	font-family: "Roboto";
+	font-weight: 800;
+	float: left;
+	font-size: 20px;
+	top: 200px;
+	left: 180px;
+	position: absolute;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+
+
+.button2:hover{
+	background-color: #D2691E;
+	color: white;
+	border: 2px solid white;
+	-webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+}
+
+.button3:hover{
+	background-color: #D2691E;
+	color: white;
+	border: 2px solid white;
+	-webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+}
